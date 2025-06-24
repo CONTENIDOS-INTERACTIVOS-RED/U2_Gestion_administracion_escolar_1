@@ -8,7 +8,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/E_fZRzOD6bE?si=3GE4DTRlIaZUg2-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/0bR-MHw5kFM?si=n7GeRsJS40h4G1rL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
     .bg-full-width.bg-color-2.p-4.mb-5(data-aos="fade-left")
       .px-4
         .row
