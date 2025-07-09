@@ -33,7 +33,7 @@
     .bg-color-3.p-4.mb-5(data-aos="fade-up") 
       figure
         img.img-a.img-t(src="@/assets/curso/temas/39.svg", data-aos="zoom-in")    
-
+    p(data-aos="fade-down") Sin embargo, más allá de su base jurídica, el gobierno escolar representa una oportunidad para construir escuela desde la corresponsabilidad, la escucha activa y la construcción colectiva.
     .bg-full-width.bg-fondo-slider.mb-5(data-aos="fade-right")
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
@@ -100,7 +100,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Fundamento legal del gobierno escolar
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Fundamento legal del gobierno escolar, donde se aborda el sustento normativo que respalda la creación, organización y función del gobierno escolar en Colombia. Este material ofrece explicaciones detalladas, reflexiones pedagógicas y orientaciones legales con el fin de comprender cómo se educa en democracia desde la vida institucional. 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -166,15 +166,18 @@
         .bg-color-6.p-4.h-100.j1(data-aos="fade-up") 
           p(data-aos="fade-down").mb-0 Educar para la democracia implica no solo enseñar sus fundamentos, sino aplicarlos en la gestión, en la pedagogía y en la convivencia diaria. La escuela se convierte así en un laboratorio de ciudadanía, donde cada miembro de la comunidad educativa, docente, estudiante, familia o directivo, tiene el deber de construir un ambiente basado en el respeto, el diálogo y la acción colectiva.
 
+    #t_2_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.3] Órganos, funciones y participación en el gobierno escolar
     .row.mb-5
       .col-lg-8
+        .bg-color-7.p-4.mb-4(data-aos="fade-up") 
+          h5(data-aos="fade-down") ¿Cómo se construye una escuela verdaderamente democrática?
+
+          p(data-aos="fade-down").mb-0 Para que la institución educativa sea un escenario de participación, corresponsabilidad y toma de decisiones colectivas, es fundamental comprender su organización interna. La estructura del gobierno escolar no es solo un requerimiento legal, sino una herramienta formativa esencial para garantizar el ejercicio de la democracia desde los primeros niveles educativos.        
         p(data-aos="fade-down") Esta estructura canaliza la participación de toda la comunidad educativa y asegura que las decisiones sean representativas, concertadas y transparentes. Asimismo, fortalece habilidades ciudadanas, promueve el diálogo y consolida el compromiso colectivo con los fines institucionales.
 
         p(data-aos="fade-down") A continuación, se presentan los principales órganos del gobierno escolar, con sus funciones e integrantes: 
-        .bg-color-7.p-4(data-aos="fade-up") 
-          h5(data-aos="fade-down") ¿Cómo se construye una escuela verdaderamente democrática?
-
-          p(data-aos="fade-down").mb-0 Para que la institución educativa sea un escenario de participación, corresponsabilidad y toma de decisiones colectivas, es fundamental comprender su organización interna. La estructura del gobierno escolar no es solo un requerimiento legal, sino una herramienta formativa esencial para garantizar el ejercicio de la democracia desde los primeros niveles educativos.     
+   
       .col-lg-4.mb-3.mb-lg-0 
         figure
           img.img-a.img-t(src="@/assets/curso/temas/53.png", data-aos="zoom-in")           
@@ -355,7 +358,7 @@
             img.img-a.img-t(src="@/assets/curso/temas/55.png")          
           .col-lg
             .py-4.j1
-              h5 Reflexión profesional 
+              h5 Reflexión final 
               p La estructura del gobierno escolar no debe entenderse como un simple organigrama administrativo, sino como una plataforma pedagógica para el ejercicio de la ciudadanía. A través de sus órganos se enseña a decidir colectivamente, respetar la diferencia, resolver conflictos mediante el diálogo y construir consensos.
 
     .row.mb-5       
@@ -365,6 +368,7 @@
             .col-lg-auto
               img.img-a.img-t(src="@/assets/curso/temas/56.svg")
             .col-lg
+              h5 ¿Cómo fortalecer esta estructura desde el rol docente?
               p.mb-0 Asumiendo un papel activo en la formación democrática de los estudiantes, promoviendo una cultura participativa y modelando valores ciudadanos en cada práctica cotidiana. Cuando cada integrante de la comunidad educativa comprende su función y actúa con compromiso, la escuela se convierte en un auténtico espacio de aprendizaje cívico, donde cada voz cuenta y cada decisión es una oportunidad de transformación.
 
       .col-lg-5
@@ -463,28 +467,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Qué componente NO forma parte del Proyecto Educativo Institucional (PEI)?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Misión y visión.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Horario de clases.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Manual de convivencia.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Plan de estudios.',
                 esCorrecta: false,
               },
             ],
@@ -494,28 +498,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Qué ley sustenta la obligación de que cada institución educativa cuente con un Proyecto Educativo Institucional (PEI)?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Ley 30 de 1992.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Ley 115 de 1994.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Decreto 1075 del 2015.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Ley 101 de 1980.',
                 esCorrecta: false,
               },
             ],
@@ -525,28 +529,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál de los siguientes órganos no forma parte del Gobierno Escolar?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Consejo Directivo.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Consejo Académico.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Consejo de Padres.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Consejo Estudiantil.',
                 esCorrecta: false,
               },
             ],
@@ -555,28 +559,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto: '¿Cuál es el principal objetivo del Gobierno Escolar?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Establecer los contenidos pedagógicos.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto:
+                  'Garantizar la participación democrática de la comunidad educativa.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Organizar los eventos extracurriculares.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Asegurar los recursos financieros para la institución.',
                 esCorrecta: false,
               },
             ],
@@ -586,28 +591,29 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué función tiene el Consejo Directivo en el Gobierno Escolar?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Elaborar el PEI.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto:
+                  'Tomar decisiones sobre el funcionamiento institucional.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Coordinar el plan de estudios.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Realizar evaluaciones docentes.',
                 esCorrecta: false,
               },
             ],

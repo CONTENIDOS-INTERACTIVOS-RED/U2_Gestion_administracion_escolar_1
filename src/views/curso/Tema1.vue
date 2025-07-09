@@ -135,9 +135,10 @@
         figure
           img.img-a.img-t(src="@/assets/curso/temas/19.png", data-aos="zoom-in")           
       .col-lg-7
+        .bg-color-7.p-4.mb-4(data-aos="fade-up") 
+          p(data-aos="fade-down").mb-0 En el #[b plano pedagógico], permite a los docentes trabajar con coherencia y sentido, diseñando actividades que abarquen no solo el aprendizaje académico, sino también el bienestar emocional y social de los estudiantes. Cuando el personal docente se siente identificado con el PEI, su compromiso y motivación crecen significativamente.       
         p(data-aos="fade-down") En el #[b plano administrativo], el PEI proporciona los criterios para tomar decisiones eficientes y justificadas. Todo, desde el uso de recursos hasta las actividades extracurriculares, debe estar alineado con sus objetivos. De esta manera, se evita la dispersión de esfuerzos y se optimiza la gestión institucional. La influencia del PEI por áreas de gestión, son:   
-        .bg-color-7.p-4(data-aos="fade-up") 
-          p(data-aos="fade-down").mb-0 En el #[b plano pedagógico], permite a los docentes trabajar con coherencia y sentido, diseñando actividades que abarquen no solo el aprendizaje académico, sino también el bienestar emocional y social de los estudiantes. Cuando el personal docente se siente identificado con el PEI, su compromiso y motivación crecen significativamente. 
+
 
     .row.mb-5 
       .col-lg-6.mb-3 
@@ -201,7 +202,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Bases legales del PEI
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Bases legales del PEI, donde se aborda el sustento normativo del Proyecto Educativo Institucional (PEI) en Colombia. Este material ofrece explicaciones claras, reflexiones pedagógicas y ejemplos normativos con el fin de comprender cómo las leyes educativas fundamentan y orientan la vida escolar.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -381,7 +382,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Fortalecimiento institucional desde el corazón educativo: PEI y planes de mejoramiento
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Fortalecimiento institucional desde el corazón educativo: PEI y planes de mejoramiento, donde se reflexiona sobre la necesidad de mantener vivos y actualizados el Proyecto Educativo Institucional (PEI) y los Planes de Mejoramiento Institucional (PMI). 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '2',
-    tituloUnidad: 'Planificación y control de proyectos',
+    tituloUnidad: 'Proyecto educativo institucional',
   },
   menuPrincipal: {
     menu: [
